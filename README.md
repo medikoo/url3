@@ -1,5 +1,5 @@
 # url3
-## Modular and environment agnostic version of [Node's url](http://nodejs.org/api/url.html) package
+## Modular and environment agnostic version of node.js [url](http://nodejs.org/api/url.html) package
 
 Works same way as Node's `url` but provides individual functionalities as following distinct modules:
 
@@ -8,8 +8,7 @@ Works same way as Node's `url` but provides individual functionalities as follow
 - `url3/resolve`
 - `url3/resolve-object`
 
-Additionally `format` accepts only objects. So if you want to clean up potentially wonky url, you need to `format(parse(url))`.  
-Same way `parse`, `resolve` and `resolveObject` accept only strings as input arguments
+Additionally `format` accepts only objects. So if you want to clean up potentially wonky url, you need to `format(parse(url))`. Same way `parse`, `resolve` and `resolveObject` accept only strings as input arguments
 
 ### Installation
 #### NPM
