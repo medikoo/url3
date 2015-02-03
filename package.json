@@ -1,0 +1,26 @@
+{
+  "name": "url3",
+  "version": "0.1.0",
+  "description": "Modular version of `url` package",
+  "keywords": [
+    "url",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/url3.git"
+  },
+  "dependencies": {
+    "punycode2": "^1.3.2",
+    "querystring2": "1"
+  },
+  "devDependencies": {
+    "xlint": "~0.2.2",
+    "xlint-jslint-medikoo": "~0.1.2"
+  },
+  "scripts": {
+    "lint": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --no-cache --no-stream",
+    "lint-console": "node node_modules/xlint/bin/xlint --linter=node_modules/xlint-jslint-medikoo/index.js --watch",
+    "test": "node test/index.js"
+  }
+}

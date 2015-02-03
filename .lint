@@ -1,0 +1,18 @@
+@root
+
+module
+
+indent 2
+maxlen 100
+
+ass
+continue
+evil
+forin
+nomen
+plusplus
+stupid
+vars
+regexp
+
+predef+ escape
