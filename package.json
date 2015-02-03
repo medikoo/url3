@@ -1,7 +1,7 @@
 {
   "name": "url3",
-  "version": "0.1.0",
-  "description": "Modular version of `url` package",
+  "version": "1.0.0",
+  "description": "Modular version of node.js url package",
   "keywords": [
     "url",
     "node"
@@ -11,7 +11,7 @@
     "url": "git://github.com/medikoo/url3.git"
   },
   "dependencies": {
-    "punycode2": "^1.3.2",
+    "punycode2": "1",
     "querystring2": "1"
   },
   "devDependencies": {
